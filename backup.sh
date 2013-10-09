@@ -10,7 +10,7 @@ backup_path=/media/CAA45525A45514F3/ubuntu_backup
 su_password=wwpeng
 
 #停止桌面服务
-#echo stop lightdm service...
+echo stop lightdm service...
 echo "$su_password"|sudo -S service lightdm stop
 #创建备份目录
 backup_path=$backup_path"/"$(date +%Y%m%d%H%M%S)
