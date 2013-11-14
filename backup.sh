@@ -4,7 +4,7 @@
 #email 591826944@qq.com
 #该脚本用于备份 ubuntu系统 会将系统 /boot /usr /var /home 打包成压缩文件
 ##########配置参数##########
-#备份文件的保存目录
+#备份文件的保存目录 如果保存到windows ntfs分区的花一定要先挂在分区，否则找不到路径
 backup_path=/media/CAA45525A45514F3/ubuntu_backup
 #root用户密码
 su_password=wwpeng
